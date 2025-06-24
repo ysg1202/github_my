@@ -113,7 +113,6 @@ sudo apt update
 - [OpenCV Basic](./OpenCV_basic.md)
 - [이미지 처리](./image_test.md)
 
-  
 ## 6. CNN(Convolution Neural Network
 - [CNN_Basic](./CNN_basic.md)
 - [CNN_자율주행 관련 코드](./cnn_test.md)
