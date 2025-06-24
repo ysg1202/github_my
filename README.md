@@ -41,3 +41,65 @@
 6. **Create repository 버튼 클릭**
    
 ![create_repository](https://github.com/user-attachments/assets/8c2eb16b-8dfc-465a-88cd-d35770d12df0)
+
+## Markdown 문법
+
+### 글자 크기 조절
+# 제목1  
+## 제목2  
+### 제목3  
+#### 제목4  
+##### 제목5  
+###### 제목6
+
+### 글자 꾸미기   
+**굵게**  
+*기울임*  
+~~취소선~~  
+
+### 목록 만들기
+- 항목1
+- 항목2
+  -하위항목
+
+### 링크 & 이미지
+[내 깃허브 저장소](https://github.com/ysg1202)  
+![자동차](https://pixabay.com/ko/photos/%EC%8B%AD%EC%9E%90%EA%B0%80%EB%8A%94-%EC%86%8D%EB%8F%84-car-%EB%8F%84%EC%9A%94%ED%83%80-4814978/)
+
+### 인용문
+> 인용문입니다
+>> 중첩 인용 가능
+
+### 코드 
+```python
+print('hello world')
+```
+```
+pip install matplotlib
+sudo apt update
+```
+
+### 표 만들기
+| 이름 | 나이 | 직업     |
+|------|------|---------|
+| 영희 | 25   | 디자이너 |
+| 철수 | 30   | 개발자   |
+
+## Colab 기초 
+![1](https://github.com/user-attachments/assets/3d338674-bac3-4dea-9e5c-6a2206f0d5cc)
+
+파일 -> Github에 사본 저장 -> 저장할 repository 선택 후 확인 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
