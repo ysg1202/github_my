@@ -93,6 +93,9 @@ sudo apt update
 
 파일 -> Github에 사본 저장 -> 저장할 repository 선택 후 확인 
 
+## 2. About python3
+[ws3school](https://www.w3schools.com/python/)
+
 
 
 
