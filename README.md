@@ -64,7 +64,8 @@
 
 ### 링크 & 이미지
 [내 깃허브 저장소](https://github.com/ysg1202)  
-![이미지 예시](https://github.com/user-attachments/assets/b98b018e-1b2c-43b4-97a4-7addd29528b5)
+![car](https://github.com/user-attachments/assets/13fbe4e1-160a-48d6-80d4-5e5ec8e24cbe)
+
 
 ### 인용문
 > 인용문입니다
