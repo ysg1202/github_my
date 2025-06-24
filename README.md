@@ -87,7 +87,9 @@ sudo apt update
 | 철수 | 30   | 개발자   |
 
 ## Colab 기초 
-![1](https://github.com/user-attachments/assets/3d338674-bac3-4dea-9e5c-6a2206f0d5cc)
+![colab1](https://github.com/user-attachments/assets/3d338674-bac3-4dea-9e5c-6a2206f0d5cc)
+![colab2](https://github.com/user-attachments/assets/fc8effa0-5550-4368-8131-387e6eb76132)
+
 
 파일 -> Github에 사본 저장 -> 저장할 repository 선택 후 확인 
 
