@@ -22,29 +22,20 @@ Print와 print는 완전히 다른 것
 숫자로 시작할 수 없음
 특수문자 사용 불가 (밑줄 _ 제외)
 예약어 사용 불가
+
 ![image](https://github.com/user-attachments/assets/ee1d632d-4e1b-42ba-97ce-637ef5064e0a)
 
 
 
 
-문자열 처리 주의사항
-# 따옴표 주의
-# 잘못된 경우
-# 올바른 경우
-text = "She said "Hello""  # 에러!
-text = "She said \"Hello\""  # 올바름
-text = 'She said "Hello"'   # 올바름
+### 문자열 처리 주의사항
+따옴표 주의
+
+![image](https://github.com/user-attachments/assets/3d608388-7275-4d7b-b667-e05e5a6941ac)
+
+문자열과 숫자 연산
 
 
-
-# 문자열과 숫자 연산
-# 잘못된 경우
-# 올바른 경우
-age = 25
-print("나이: " + age)   # 에러! 타입 불일치
-age = 25
-print("나이: " + str(age))   # 올바름
-print(f"나이: {age}")        # 올바름 (f-string)
 
 
 
