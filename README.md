@@ -96,7 +96,7 @@ sudo apt update
 ## 2. About python3
 [ws3school](https://www.w3schools.com/python/)
 [파이썬 자료](https://docs.google.com/document/d/19VkSDEzg3EgwLROp6Z0-3Bdayx0T_X4vmB3hQZFbOxY/edit?tab=t.0#heading=h.xznvs0glpxkj)
-- [Python basic](./docs/python3.md)
+- [Python basic](./python3.md)
 
 ## 3.  data structure / data sciencs
 
