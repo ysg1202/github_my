@@ -9,13 +9,11 @@ Python은 들여쓰기로 코드 블록을 구분합니다
 
 
 
-대소문자 구분
+### 대소문자 구분
 Python은 대소문자를 구분합니다
 Print와 print는 완전히 다른 것
-# 잘못된 예
-# 올바른 예
-Print("Hello")  # 에러! (대문자 P)
-print("Hello")  # 올바름
+![image](https://github.com/user-attachments/assets/f2fef316-d901-474a-8b91-50b777bbcca5)
+
 
 
 
