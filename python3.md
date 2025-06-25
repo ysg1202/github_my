@@ -44,8 +44,9 @@ my_list = [1, 2, 3]
 print(my_list[3])  # 에러! 인덱스 범위 초과
 print(my_list[2])  # 올바름 (마지막 요소)
 print(my_list[-1]) # 올바름 (뒤에서 첫 번째)
-
-리스트 복사 주의
+```
+###리스트 복사 주의
+```python
 list1 = [1, 2, 3]
 list2 = list1        # 참조 복사 (같은 메모리)
 list2.append(4)
