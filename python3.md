@@ -1,4 +1,4 @@
-Python에서 주의해야 할 점들
+ Python에서 주의해야 할 점들
 문법 관련 주의사항
 들여쓰기 (Indentation)
 Python은 들여쓰기로 코드 블록을 구분합니다
