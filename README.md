@@ -96,7 +96,11 @@ sudo apt update
 ## 2. About python3
 [ws3school](https://www.w3schools.com/python/)
 [파이썬 자료](https://docs.google.com/document/d/19VkSDEzg3EgwLROp6Z0-3Bdayx0T_X4vmB3hQZFbOxY/edit?tab=t.0#heading=h.xznvs0glpxkj)
-- [Python basic](python3.md)
+[Python basic](python3.md)
+[for문 기초 가이드](https://claude.ai/public/artifacts/0ef57f69-96fa-4833-9b40-9ea79b0bd691)
+[클래스 기초 가이드](https://claude.ai/public/artifacts/82c1fb01-030d-4ae3-abde-118676216f64)
+[딕셔너리 기초 가이드](https://claude.ai/public/artifacts/a11af36d-c9fa-4366-9580-379644d1af5d)
+
 
 ## 3.  data structure / data sciencs
 
