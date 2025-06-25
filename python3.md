@@ -15,23 +15,14 @@ Print와 print는 완전히 다른 것
 ![image](https://github.com/user-attachments/assets/f2fef316-d901-474a-8b91-50b777bbcca5)
 
 
-
-
-
-
-변수와 데이터 타입
-변수명 규칙
+## 변수와 데이터 타입
+### 변수명 규칙
 숫자로 시작할 수 없음
 특수문자 사용 불가 (밑줄 _ 제외)
 예약어 사용 불가
-# 잘못된 변수명
-# 올바른 변수명
-2name = "John"     # 숫자로 시작
-my-name = "John"   # 하이픈 사용
-class = "A"        # 예약어 사용
-name2 = "John"
-my_name = "John"
-class_name = "A"
+![image](https://github.com/user-attachments/assets/ee1d632d-4e1b-42ba-97ce-637ef5064e0a)
+
+
 
 
 문자열 처리 주의사항
