@@ -39,6 +39,7 @@ Print와 print는 완전히 다른 것
 
 ## 리스트와 인덱스
 ### 인덱스 범위 주의
+```python
 my_list = [1, 2, 3]
 print(my_list[3])  # 에러! 인덱스 범위 초과
 print(my_list[2])  # 올바름 (마지막 요소)
@@ -52,27 +53,33 @@ print(list1)         # [1, 2, 3, 4] - 원본도 변경됨!
 
 # 올바른 복사 방법
 list2 = list1.copy()  # 또는 list1[:]
+```
 
-반복문과 조건문
-무한 루프 주의
-# 위험한 코드
+## 반복문과 조건문
+### 무한 루프 주의
+위험한 코드
+```python
 while True:
     print("무한 루프!")  # Ctrl+C로 중단해야 함
+```
 
-# 안전한 코드
+안전한 코드
+```python
 count = 0
 while count < 10:
     print(f"카운트: {count}")
     count += 1  # 카운터 증가 잊지 말기!
+```
 
 조건문에서 할당 연산자 실수
+```python
 x = 5
 if x = 10:  # 에러! 할당 연산자 사용
     print("x는 10")
 
 if x == 10:  # 올바름! 비교 연산자 사용
     print("x는 10")
-
+```
 
 
 
