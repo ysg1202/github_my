@@ -35,13 +35,10 @@ Print와 print는 완전히 다른 것
 
 문자열과 숫자 연산
 
+![image](https://github.com/user-attachments/assets/10047445-7c45-4550-86bb-ebceae407e96)
 
-
-
-
-
-리스트와 인덱스
-인덱스 범위 주의
+## 리스트와 인덱스
+### 인덱스 범위 주의
 my_list = [1, 2, 3]
 print(my_list[3])  # 에러! 인덱스 범위 초과
 print(my_list[2])  # 올바름 (마지막 요소)
