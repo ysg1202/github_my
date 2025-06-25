@@ -12,7 +12,8 @@ Python은 들여쓰기로 코드 블록을 구분합니다
 ### 대소문자 구분
 Python은 대소문자를 구분합니다
 Print와 print는 완전히 다른 것
-![image](https://github.com/user-attachments/assets/f2fef316-d901-474a-8b91-50b777bbcca5)
+![image](https://github.com/user-attachments/assets/6cc2feaa-d6e6-4689-9c12-4565c367d5dd)
+
 
 
 ## 변수와 데이터 타입
