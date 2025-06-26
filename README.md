@@ -101,6 +101,7 @@ sudo apt update
 - [클래스 기초 가이드](https://claude.ai/public/artifacts/82c1fb01-030d-4ae3-abde-118676216f64)
 - [딕셔너리 기초 가이드](https://claude.ai/public/artifacts/a11af36d-c9fa-4366-9580-379644d1af5d)
 - [리스트 기초 가이드](https://claude.ai/public/artifacts/fd98c798-ab20-40a4-8a3b-537503b9849c)
+- [딕셔너리 기초 가이드](https://claude.ai/public/artifacts/a11af36d-c9fa-4366-9580-379644d1af5d)
 
 ## 3.  data structure / data sciencs
 
