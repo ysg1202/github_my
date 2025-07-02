@@ -28,7 +28,12 @@ zeros = np.zeros((2, 3))     # 0으로 채운 2x3 배열
 ones = np.ones((3,))         # 1로 채운 1차원 배열
 arange = np.arange(0, 10, 2) # 0부터 10까지 2 간격
 linspace = np.linspace(0, 1, 5)  # 0과 1 사이를 5등분
+
+print(a.shape)     # 배열의 형태
+print(a.ndim)      # 차원 수
+print(a.dtype)     # 데이터 타입
 ```
+
 
 
 
