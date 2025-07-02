@@ -40,14 +40,36 @@ print(a.ndim)      # 차원 수
 print(a.dtype)     # 데이터 타입
 ```
 
-## 배열 연산
+## 배열간 연산
 ```python
-x = np.array([1, 2, 3])
-y = np.array([4, 5, 6])
+import numpy as np
 
-print(x + y)  # [5 7 9]
-print(x * y)  # [4 10 18]
-print(x ** 2) # [1 4 9]
+a = np.array([1, 2, 3])
+b = np.array([4, 5, 6])
+
+print("덧셈:", a + b)      # [5 7 9]
+print("뺄셈:", a - b)      # [-3 -3 -3]
+print("곱셈:", a * b)      # [4 10 18]
+print("나눗셈:", a / b)    # [0.25 0.4 0.5]
+```
+
+## 스칼라 연산
+```python
+arr = np.array([1, 2, 3, 4])
+
+print("곱하기 2:", arr * 2)   # [2 4 6 8]
+print("더하기 10:", arr + 10) # [11 12 13 14]
+```
+
+## 행렬 연산
+```python
+a = np.array([[1, 2],
+              [3, 4]])
+
+b = np.array([[5, 6],
+              [7, 8]])
+
+print("행렬 곱:\n", np.dot(a, b))
 ```
 
 ## 1차원 배열 인덱싱
