@@ -34,6 +34,16 @@ print(a.ndim)      # 차원 수
 print(a.dtype)     # 데이터 타입
 ```
 
+## 배열 연산
+```python
+x = np.array([1, 2, 3])
+y = np.array([4, 5, 6])
+
+print(x + y)  # [5 7 9]
+print(x * y)  # [4 10 18]
+print(x ** 2) # [1 4 9]
+```
+
 
 
 
