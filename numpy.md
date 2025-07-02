@@ -75,6 +75,21 @@ arr = np.array([[[1, 2, 3], [4, 5, 6]], [[7, 8, 9], [10, 11, 12]]])
 print(arr[0, 1, 2])
 ```
 
+## 1차원 배열 인덱싱
+```python
+import numpy as np
+
+arr = np.array([1, 2, 3, 4, 5, 6, 7])
+print(arr[1:5])
+print(arr[4:])
+print(arr[-3:-1])
+print(arr[1:5:2]) # 인덱스 1부터 5까지, 2칸씩 건너뜀
+print(arr[::2]) # 짝수 인덱스를 가진 요소들만 출력
+```
+
+
+
+
 
 
 
