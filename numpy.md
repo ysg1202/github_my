@@ -13,7 +13,7 @@
 - 이런 동을 컴퓨터 과학에서는 참조 지역성이라고 합니다.
 - NumPy는 최신 CPU 아키텍처에 최적화되어 있음
 
-## Numpy 설치 및 버전 확
+## Numpy 설치 및 버전 확인 
 ```python
 C:\Users\Your Name>pip install numpy
 print(np.__version__) 
