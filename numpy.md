@@ -120,6 +120,45 @@ print(arr[1, 1:4]) # 두 번째행 인덱스 1,2,3
 print(arr[0:2, 2]) # 첫 번쨰행~두 번째행 각 행에서 2열 
 ```
 
+## 배열 형태 변경
+```python
+import numpy as np
+
+arr = np.array([1, 2, 3, 4, 5, 6])
+
+reshaped = arr.reshape(2, 3)
+print(reshaped)
+```
+
+## 배열 펼치기
+```python
+arr = np.array([[1, 2, 3],
+                [4, 5, 6]])
+
+flattened = arr.flatten()
+print(flattened)
+```
+
+## 통계 함수
+```python
+arr = np.array([1, 2, 3, 4, 5])
+
+print("합계:", arr.sum())         # 15
+print("평균:", arr.mean())        # 3.0
+print("최댓값:", arr.max())       # 5
+print("최솟값:", arr.min())       # 1
+print("표준편차:", arr.std())     # 1.4142...
+```
+
+## 축 지정 통계
+```python
+arr = np.array([[1, 2, 3],
+                [4, 5, 6]])
+
+print("행 기준 합:", arr.sum(axis=1))   # [ 6 15 ]
+print("열 기준 합:", arr.sum(axis=0))   # [5 7 9]
+```
+
 
 
 
