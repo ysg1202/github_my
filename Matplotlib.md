@@ -43,6 +43,72 @@ print(matplotlib.__version__)
 | `plt.tight_layout()`        | 겹치지 않도록 자동 여백 조정              |
 | `plt.savefig("파일명.png")` | 그래프를 이미지 파일로 저장               |
 
+## Matplotlib 기본 사용법 예제
+
+### 1. 기본 선 그래프 그리기
+```python
+import matplotlib.pyplot as plt
+
+x = [1, 2, 3, 4, 5]
+y = [2, 4, 6, 8, 10]
+
+plt.plot(x, y)
+plt.title("기본 선 그래프")
+plt.xlabel("X축")
+plt.ylabel("Y축")
+plt.grid(True)
+plt.show()
+```
+
+## 막대 그래프
+```python
+import matplotlib.pyplot as plt
+
+labels = ['A', 'B', 'C', 'D']
+values = [10, 20, 15, 25]
+
+plt.bar(labels, values)
+plt.title("막대 그래프")
+plt.xlabel("항목")
+plt.ylabel("값")
+plt.show()
+```
+
+## 산점도 
+```python
+import matplotlib.pyplot as plt
+
+x = [1, 2, 3, 4, 5]
+y = [5, 3, 9, 1, 6]
+
+plt.scatter(x, y)
+plt.title("산점도")
+plt.xlabel("X 값")
+plt.ylabel("Y 값")
+plt.grid(True)
+plt.show()
+```
+
+## 여러 그래프 그리기
+```python
+import matplotlib.pyplot as plt
+
+x = [1, 2, 3, 4, 5]
+y1 = [1, 4, 9, 16, 25]
+y2 = [25, 16, 9, 4, 1]
+
+plt.subplot(1, 2, 1)
+plt.plot(x, y1)
+plt.title("y = x²")
+
+plt.subplot(1, 2, 2)
+plt.plot(x, y2)
+plt.title("반전된 y")
+
+plt.tight_layout()
+plt.show()
+```
+
 # 자율주행에서 Matplotlib 활용
 - 자율주행에서는 센서(라이다, 카메라, GPS 등)로부터 수집한 공간 정보, 차량 위치, 장애물, 경로 등을 시각화
 - 실시간 주행 정보나 알고리즘 결과를 시각적으로 확인하고 디버깅하는 데 효과적
