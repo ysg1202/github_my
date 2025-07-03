@@ -227,6 +227,7 @@ else:
 [넘파이_index](https://claude.ai/public/artifacts/6accf154-ceb5-470a-b2e2-543df2d49b4a)
 [넘파이_기초](https://claude.ai/public/artifacts/0594c0ae-662a-4c1b-b29f-16dc69aff934)
 [넘파이_배열 인터랙티브](https://claude.ai/public/artifacts/fdea1f0a-439f-47d8-b954-956f34693a2e)
+[넘파이_브로드캐스팅](https://claude.ai/public/artifacts/1e559e5e-1a60-4c8f-8971-69d9d00581ae)
 
 
 
