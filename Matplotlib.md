@@ -42,3 +42,94 @@ print(matplotlib.__version__)
 | `plt.subplots()`            | 복수 그래프를 그릴 때 Figure, Axes 객체 생성 |
 | `plt.tight_layout()`        | 겹치지 않도록 자동 여백 조정              |
 | `plt.savefig("파일명.png")` | 그래프를 이미지 파일로 저장               |
+
+# 자율주행에서 Matplotlib 활용
+- 자율주행에서는 센서(라이다, 카메라, GPS 등)로부터 수집한 공간 정보, 차량 위치, 장애물, 경로 등을 시각화할 필요가 있음
+- Matplotlib은 실시간 주행 정보나 알고리즘 결과를 시각적으로 확인하고 디버깅하는 데 효과적임
+
+## 주로 사용하는 그래프
+- 산점도: 장애물, 차량 위치 표현
+- 선 그래프: 경로(Path) 시각화
+- 벡터 시각화: 진행 방향, 속도 벡터
+- 2D 이미지 출력: 카메라 영상, 마스크 출력
+
+## 차량과 장애물 위치 시각화
+```python
+import matplotlib.pyplot as plt
+
+# 차량 위치
+car_position = (5, 5)
+
+# 장애물 위치
+obstacles = [(3, 4), (7, 2), (6, 8)]
+
+# 시각화
+plt.figure(figsize=(6, 6))
+plt.scatter(*car_position, color='blue', label='차량')
+for obs in obstacles:
+    plt.scatter(*obs, color='red', label='장애물')
+
+plt.xlim(0, 10)
+plt.ylim(0, 10)
+plt.grid(True)
+plt.legend()
+plt.title("자율주행 차량 및 장애물 위치")
+plt.xlabel("X 좌표")
+plt.ylabel("Y 좌표")
+plt.show()
+```
+
+## 경로 시각화
+```python
+import matplotlib.pyplot as plt
+
+# 경로 좌표
+path_x = [1, 2, 3, 4, 5, 6]
+path_y = [1, 2, 2, 3, 4, 5]
+
+# 시각화
+plt.plot(path_x, path_y, marker='o', linestyle='-', color='green', label='경로')
+plt.title("자율주행 경로 시각화")
+plt.xlabel("X 좌표")
+plt.ylabel("Y 좌표")
+plt.grid(True)
+plt.legend()
+plt.show()
+```
+
+## 카메라 이미지 출력
+```python
+import matplotlib.pyplot as plt
+import numpy as np
+
+# 예시 이미지: 2차원 배열 (흑백 이미지)
+image = np.random.rand(100, 100)
+
+plt.imshow(image, cmap='gray')
+plt.title("카메라 입력 이미지")
+plt.axis('off')
+plt.show()
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
