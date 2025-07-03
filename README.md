@@ -108,7 +108,7 @@ sudo apt update
 - [데이터 구조 개요](./data_structures.md)
 - [Pandas](./pandas.md)
 - [Numpy](numpy.md)
-- [Matplotlib](./Matplotlib.md)
+- [Matplotlib](Matplotlib.md)
 
 ## 4. Machine Learning
 
