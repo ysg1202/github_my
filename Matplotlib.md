@@ -45,7 +45,7 @@ print(matplotlib.__version__)
 
 ## Matplotlib 기본 사용법 예제
 
-### 1. 기본 선 그래프 그리기
+## 1. 기본 선 그래프 그리기
 ```python
 import matplotlib.pyplot as plt
 
