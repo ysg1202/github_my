@@ -117,7 +117,7 @@ sudo apt update
 
 ## 5. OpenCV
 
-- [OpenCV Basic](./OpenCV_basic.md)
+- [OpenCV Basic](OpenCV_basic.md)
 - [이미지 처리](./image_test.md)
 - [OpenCV기초 자료](https://claude.ai/public/artifacts/39cc3eb1-891d-430e-a1d1-84538eb45522)
 
