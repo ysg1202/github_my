@@ -119,6 +119,7 @@ sudo apt update
 
 - [OpenCV Basic](./OpenCV_basic.md)
 - [이미지 처리](./image_test.md)
+- [OpenCV기초 자료](https://claude.ai/public/artifacts/39cc3eb1-891d-430e-a1d1-84538eb45522)
 
 ## 6. CNN(Convolution Neural Network
 - [CNN_Basic](./CNN_basic.md)
