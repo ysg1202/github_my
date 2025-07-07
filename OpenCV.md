@@ -2,7 +2,7 @@
 
 ---
 
-## 1. 🧠 OpenCV란?
+##  🧠 OpenCV란?
 
 OpenCV(Open Source Computer Vision Library)는 **영상 처리 및 컴퓨터 비전** 작업을 위한 오픈소스 라이브러리입니다.  
 다양한 이미지 및 비디오 관련 기능을 제공하며, 인공지능, 딥러닝과도 쉽게 연동됩니다.
@@ -15,7 +15,7 @@ OpenCV(Open Source Computer Vision Library)는 **영상 처리 및 컴퓨터 비
 
 ---
 
-## 2. 📦 OpenCV에 필요한 라이브러리들
+##  📦 OpenCV에 필요한 라이브러리들
 
 ### 기본 설치
 
